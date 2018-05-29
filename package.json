@@ -1,0 +1,22 @@
+{
+  "name": "bn-examples",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "highlight.js": "^9.12.0",
+    "react": "^16.4.0",
+    "react-code-highlight": "^1.0.1",
+    "react-dom": "^16.4.0",
+    "react-gist-embed": "0.0.3",
+    "react-iframe": "^1.1.0",
+    "react-router-dom": "^4.3.0-rc.3",
+    "react-scripts": "1.1.4",
+    "react-syntax-highlighter": "^7.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
