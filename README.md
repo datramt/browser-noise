@@ -1,1 +1,1 @@
-[Browser Noise Project Repository](https://datramt.github.io/project%201)
+[Browser Noise Project Repository](https://datramt.github.io/browser-noise)
