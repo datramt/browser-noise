@@ -46,6 +46,7 @@ class App extends Component {
   render() {
     return (
         <Router>
+
             <div className="App">
                 <header className="App-header" style={{ display: "flex" }}>
                     <div className="HeadLeft">
@@ -57,11 +58,14 @@ class App extends Component {
                         {routes.map((route, index) => (
                           // Render more <Route>s with the same paths as
                           // above, but different components this time.
+
                             <Route
                                 key={index}
                                 path={route.path}
+
                                 exact={route.exact}
                                 component={route.subtitle}
+
                             />
                         ))}
                     </div>
@@ -94,6 +98,7 @@ class App extends Component {
                             <Route
                               key={index}
                               path={route.path}
+
                               exact={route.exact}
                               component={route.content}
                             />
@@ -129,5 +134,6 @@ class App extends Component {
 //         )
 //     }
 // }
+// path={process.env.PUBLIC_URL + '/'}
 
 export default App;
