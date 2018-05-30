@@ -8,6 +8,7 @@
     "highlight.js": "^9.12.0",
     "react": "^16.4.0",
     "react-code-highlight": "^1.0.1",
+    "react-codepen-embed": "^0.1.0",
     "react-dom": "^16.4.0",
     "react-gist-embed": "0.0.3",
     "react-iframe": "^1.1.0",
