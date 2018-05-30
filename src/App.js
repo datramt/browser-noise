@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import logo from './bnLOGO.png';
 import './App.css';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 
 //import pages
 import Project1 from './pages/Tutorial_CODE/project1';
