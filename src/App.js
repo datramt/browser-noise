@@ -56,16 +56,12 @@ class App extends Component {
                         <h1>Browser Noise Project Repository</h1>
 
                         {routes.map((route, index) => (
-                          // Render more <Route>s with the same paths as
-                          // above, but different components this time.
 
                             <Route
                                 key={index}
                                 path={route.path}
-
                                 exact={route.exact}
                                 component={route.subtitle}
-
                             />
                         ))}
                     </div>
@@ -86,54 +82,20 @@ class App extends Component {
                         </ul>
                     </div>
                     <div className="App-content">
-
                         {routes.map((route, index) => (
-                            // You can render a <Route> in as many places
-                            // as you want in your app. It will render along
-                            // with any other <Route>s that also match the URL.
-                            // So, a content or breadcrumbs or anything else
-                            // that requires you to render multiple things
-                            // in multiple places at the same URL is nothing
-                            // more than multiple <Route>s.
                             <Route
                               key={index}
                               path={route.path}
-
                               exact={route.exact}
                               component={route.content}
                             />
                         ))}
-
                     </div>
                 </body>
             </div>
         </Router>
-
-      // <div className="App">
-      //   <header className="App-header">
-      //     <img src={logo} className="App-logo" alt="logo" />
-      //     <BNtitle bntitle="Browser Noise" toggle={this.state.toggle} />
-      //   </header>
-      //   <p className="App-intro">
-      //     To get started, edit <code>src/App.js</code> and save to reload.
-      //   </p>
-      //   {this.state.toggle && <p>This should show and hide</p>}
-      //
-      //   <button onClick={this.toggle}>Show / Hide</button>
-      // </div>
     );
   }
 }
-
-
-// class BNtitle extends Component {
-//     render() {
-//         const {bntitle} = this.props
-//         return (
-//             <h1 className="App-title">{bntitle}</h1>
-//         )
-//     }
-// }
-// path={process.env.PUBLIC_URL + '/'}
 
 export default App;

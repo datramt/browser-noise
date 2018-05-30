@@ -14,6 +14,18 @@ import Codepen from 'react-codepen-embed';
 //   );
 // }
 
+const Loading = (props) => {
+  if (props.error) {
+    return (
+      <div>Error</div>
+    );
+  } else {
+    return (
+      <div>Loading...</div>
+    );
+  }
+}
+
 //
 // const Tut7 = () => {
 //   return <SyntaxHighlighter language='javascript' style={zenburn}>{`/*
@@ -147,6 +159,8 @@ class Project1 extends Component {
               user="datramt"
               height="220px"
               defaultTab="js"
+              preview="false"
+            
               loader={() => <div>Loading...</div>}
             />
             <p>{"congratulations, you have just made noise in the web browser ;) See tutorial video below"}</p>
@@ -169,6 +183,7 @@ class Project1 extends Component {
                   themeId="Panda"
                   height="400px"
                   defaultTab="js"
+                  preview="false"
                   loader={() => <div>Loading...</div>}
                 />
             <Iframe url="https://www.youtube.com/embed/OjBcx7OVdCI"
@@ -189,6 +204,7 @@ class Project1 extends Component {
               themeId="Panda"
               height="700px"
               defaultTab="js"
+              preview="false"
               loader={() => <div>Loading...</div>}
             />
             <Iframe url="https://www.youtube.com/embed/wJr5h5wjkoc"
@@ -213,6 +229,7 @@ class Project1 extends Component {
               themeId="Panda"
               height="700px"
               defaultTab="js"
+              preview="false"
               loader={() => <div>Loading...</div>}
             />
             <hr/>
@@ -224,6 +241,7 @@ class Project1 extends Component {
               user="datramt"
               height="700px"
               defaultTab="js"
+              preview="false"
               loader={() => <div>Loading...</div>}
             />
             <hr/>
@@ -235,6 +253,7 @@ class Project1 extends Component {
               user="datramt"
               height="700px"
               defaultTab="js"
+              preview="false"
               loader={() => <div>Loading...</div>}
             />
             </div>
