@@ -1,6 +1,6 @@
 /*
 —simple noise generator with spectrum
-—designed by Dan Tramte 
+—designed by Dan Tramte
 —The Audio Programmer Browser Noise tutorial series
 */
 
@@ -13,7 +13,7 @@ let fft;
 
 //========================//
 //initializations take place in setup function
-
+ 
 function setup() {
   //create canvas; prepare shape to draw with no stroke and a white fill
   createCanvas(400, 200);
@@ -64,22 +64,22 @@ function setup() {
 
 function draw() {
   background(80);
-  
+
   //every frame, create an array containing spectrum data from fft
   let spectrum = fft.analyze();
-  
+
   //DRAW spectrum shape logarithmically
   beginShape();
-    vertex(0, height); 
+    vertex(0, height);
     for (let i = 0; i < spectrum.length; i++) {
       vertex(
         map(log(i), 0, log(spectrum.length), 0, width), //x axis
         map(spectrum[i], 0, 255, height, 0) //y axis
-      ); 
+      );
     }
     vertex(width, height);
   endShape();
-  
+
 }
 
 //========================//

@@ -5,28 +5,31 @@ import Iframe from 'react-iframe';
 import Codepen from 'react-codepen-embed';
 // import tutorials from './Tutorial_CODE/tutorials';
 
-const CodepenEmbedded = () => {
-  return (
-    <Codepen
-      hash="JyxeVP"
-      user="shettypuneeth"
-    />
-  );
-}
 
 
-
-const Loading = (props) => {
-  if (props.error) {
-    return (
-      <div>Error</div>
-    );
-  } else {
-    return (
-      <div>Loading...</div>
-    );
-  }
-}
+// const CodepenEmbedded = () => {
+//   return (
+//     <Codepen
+//       hash="JyxeVP"
+//       user="shettypuneeth"
+//     />
+//   );
+// }
+//
+//
+//
+//
+// const Loading = (props) => {
+//   if (props.error) {
+//     return (
+//       <div>Error</div>
+//     );
+//   } else {
+//     return (
+//       <div>Loading...</div>
+//     );
+//   }
+// }
 
 
 
@@ -155,6 +158,7 @@ class Project1 extends Component {
 
             <hr/>
             <h4>{"TUTORIAL 1"}</h4>
+
             <p>{"make an account at "}<a href="http://alpha.editor.p5js.org">p5.js web editor</a>{" and follow along:"}</p>
             <p>{"declare and assign a p5 noise object to a variable called 'mrNoisy', then within the setup function, set the noise type and amplitude by calling methods .setType() and .amp(). Then call the .start() method."}</p>
             <p>{"see how this is done below, although, do note that I have commented out the mrNoisy.start() to spare your ears ;)"}</p>
@@ -165,7 +169,8 @@ class Project1 extends Component {
               height="220px"
               defaultTab="js"
               preview="false"
-
+              scrolling="no"
+              title="browser noise tutorial 01 "
               loader={() => <div>Loading...</div>}
             />
             <p>{"congratulations, you have just made noise in the web browser ;) See tutorial video below"}</p>
@@ -189,6 +194,7 @@ class Project1 extends Component {
                   height="400px"
                   defaultTab="js"
                   preview="false"
+                  title="browser noise tutorial 02 "
                   loader={() => <div>Loading...</div>}
                 />
             <Iframe url="https://www.youtube.com/embed/OjBcx7OVdCI"
@@ -210,6 +216,7 @@ class Project1 extends Component {
               height="700px"
               defaultTab="js"
               preview="false"
+              title="browser noise tutorial 03 "
               loader={() => <div>Loading...</div>}
             />
             <Iframe url="https://www.youtube.com/embed/wJr5h5wjkoc"
@@ -243,6 +250,7 @@ class Project1 extends Component {
               height="700px"
               defaultTab="js"
               preview="false"
+              title="browser noise tutorial 05 "
               loader={() => <div>Loading...</div>}
             />
             <hr/>
@@ -255,6 +263,7 @@ class Project1 extends Component {
               height="700px"
               defaultTab="js"
               preview="false"
+              title="browser noise tutorial 06 "
               loader={() => <div>Loading...</div>}
             />
             <hr/>
@@ -267,6 +276,7 @@ class Project1 extends Component {
               height="700px"
               defaultTab="js"
               preview="false"
+              title="browser noise tutorial 07 "
               loader={() => <div>Loading...</div>}
             />
             </div>
