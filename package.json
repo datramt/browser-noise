@@ -12,6 +12,7 @@
     "react-dom": "^16.4.0",
     "react-gist-embed": "0.0.3",
     "react-iframe": "^1.1.0",
+    "react-p5-wrapper": "0.0.4",
     "react-router-dom": "^4.3.0-rc.3",
     "react-scripts": "1.1.4",
     "react-syntax-highlighter": "^7.0.4"

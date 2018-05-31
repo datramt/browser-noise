@@ -3,6 +3,7 @@
   background-color: #444444;
   /* height: window.height; */
   min-width: 100vh;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -85,8 +86,9 @@ pre{
 
 
 .App-body {
-    min-height: 100vh;
+    min-height: 100;
     z-index: 1;
+    /* top: 120px; */
     /* position: static; */
 }
 

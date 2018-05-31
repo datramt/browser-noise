@@ -157,7 +157,7 @@ class Project1 extends Component {
             <h4>{"TUTORIAL 1"}</h4>
             <p>{"make an account at "}<a href="http://alpha.editor.p5js.org">p5.js web editor</a>{" and follow along:"}</p>
             <p>{"declare and assign a p5 noise object to a variable called 'mrNoisy', then within the setup function, set the noise type and amplitude by calling methods .setType() and .amp(). Then call the .start() method."}</p>
-            <p>{"see how this is done below, although, do note that I have commented out the mrNoisy.start() to spare your ears ;)"}</p>
+            <p>{"see how this is done below by pressing 'Run Pen', although, do note that I have commented out the mrNoisy.start() to spare your ears ;)"}</p>
             <Codepen
               hash="PawjEa"
               themeId="Panda"
@@ -266,4 +266,4 @@ class Project1 extends Component {
     }
 }
 
-export default Project1;
+export default Project2;

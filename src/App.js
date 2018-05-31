@@ -4,8 +4,10 @@ import './App.css';
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 
 //import pages
-import Project1 from './pages/Tutorial_CODE/project1';
 import Home from './pages/home';
+import Project1 from './pages/Tutorial_CODE/project1';
+// import Testingp5 from './pages/Tutorial_CODE/testingp5'; 
+
 
 const routes = [
   {
