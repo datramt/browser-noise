@@ -224,7 +224,15 @@ class Project1 extends Component {
             <hr/>
             <h4>{"TUTORIAL 4"}</h4>
             <p>{"See video regarding... what is even noise?"}</p>
-            <p>{"video only (coming soon)"}</p>
+            <Iframe url="https://www.youtube.com/embed/u_atkqBViN4"
+                width="750px"
+                height="422px"
+                id="myId"
+                className="myClassname"
+                display="initial"
+                position="relative"
+                scrolling="no"
+                allowFullScreen/>
             <hr/>
             <h4>{"TUTORIAL 5"}</h4>
             <p>{"Declare and assign a p5.FFT() object to a variable, fft, in order analyze the sound. fft.analyze() will output an array containing 1024 values, each representing a frequency bin of the audio spectrum. Use a for loop to loop through the array, and plot that data onto the canvas."}</p>
